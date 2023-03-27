@@ -11,8 +11,27 @@
 <body>
     <h1>Etch A Sketch</h1>
     <div id="container"></div>
+    <div class="box">
     <div class="bottom-panel">
-        <button class="new-grid">New Grid</button>
+        <div class="colors">
+            <button class="red"></button>
+            <button class="orange"></button>
+            <button class="yellow"></button>
+            <button class="green"></button>
+            <button class="blue"></button>
+            <button class="indigo"></button>
+            <button class="violet"></button>  
+        </div>
+        <div class="default-colors">
+            <button class="white"></button>
+            <button class="black"></button>
+        </div>
+        <div class="pixel-control">
+            <input type="range" class="new-grid" name="grid-size" min="1" max="100" value="16">
+            <div class="pixel-size">Pixel Size</div>
+        </div>
+    </div>
+    </div> 
     </div>
 </body>
 </html>
